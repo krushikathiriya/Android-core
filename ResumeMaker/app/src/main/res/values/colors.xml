@@ -4,4 +4,10 @@
     <color name="white">#FFFFFFFF</color>
     <color name="pink">#FBA1B7</color>
     <color name="light">#A78295</color>
+    <color name="lblack">#333333</color>
+    <color name="wwhite">#FFF4F4</color>
+    <color name="peach">#d59d6c</color>
+    <color name="darkred">#331D2C</color>
+    <color name="lightblue">#d3e1ff</color>
+    <color name="lightpink">#d8b2af</color>
 </resources>

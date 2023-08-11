@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity6">
+
+    <LinearLayout
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        android:background="@color/wwhite"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:src="@drawable/im6"/>
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="200dp"
+            android:src="@drawable/im7"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/txtname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text=" Name"
+            android:layout_marginLeft="60dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:src="@drawable/im6"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:background="@color/lightpink"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/shape4"
+                android:padding="4dp"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:text="Personal Information"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtemail"
+                android:layout_width="209dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:hint="E-mail Address"
+                android:padding="20dp"
+                android:textColorHint="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtmobileno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:hint="Mobile No "
+                android:padding="20dp"
+                android:textColorHint="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtaddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:hint="Address"
+                android:padding="20dp"
+                android:textColorHint="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtbirthdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:hint="Birthdate"
+                android:padding="20dp"
+                android:textColorHint="@color/black"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/shape4"
+                android:padding="4dp"
+                android:gravity="center"
+                android:text="About"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtdetails"
+                android:layout_width="209dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:hint="Details"
+                android:padding="20dp"
+                android:textColorHint="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/shape4"
+                android:padding="4dp"
+                android:gravity="center"
+                android:text="Education"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txteducation"
+                android:layout_width="209dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:hint="Education"
+                android:padding="20dp"
+                android:textColorHint="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/shape4"
+                android:padding="4dp"
+                android:gravity="center"
+                android:text="Experience"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtexperience"
+                android:layout_width="209dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:hint="Experience"
+                android:padding="20dp"
+                android:textColorHint="@color/black"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+</LinearLayout>
+</LinearLayout>
