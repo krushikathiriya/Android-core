@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 public class MainActivity5 extends AppCompatActivity {
 
-    TextView txtname,txtemail,txtmobileno,txtaddress,txtbirthdate,txtdetails,txteducation,txtexperience;
+    TextView txtname,txtemail,txtmobileno,txtaddress,txtbirthdate,txtdetails,txteducation,txtexperience,txthobby;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,6 +25,7 @@ public class MainActivity5 extends AppCompatActivity {
         txtdetails = findViewById(R.id.txtdetails);
         txteducation = findViewById(R.id.txteducation);
         txtexperience = findViewById(R.id.txtexperience);
+        txthobby = findViewById(R.id.txthobby);
 
         txtname.setText(getIntent().getStringExtra("name"));
         txtemail.setText(getIntent().getStringExtra("email"));
@@ -34,5 +35,6 @@ public class MainActivity5 extends AppCompatActivity {
         txtdetails.setText(getIntent().getStringExtra("details"));
         txteducation.setText(getIntent().getStringExtra("education"));
         txtexperience.setText(getIntent().getStringExtra("experience"));
+        txthobby.setText(getIntent().getStringExtra("hobby"));
     }
 }

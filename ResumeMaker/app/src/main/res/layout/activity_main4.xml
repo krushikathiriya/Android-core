@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CFBFC2"
+    android:background="@drawable/img_4"
     android:orientation="vertical"
     tools:context=".MainActivity4">
 
@@ -15,7 +15,7 @@
     <LinearLayout
         android:layout_width="170dp"
         android:layout_height="match_parent"
-        android:background="@color/lightblue"
+        android:background="#d8eaba"
         android:orientation="vertical">
 
         <ImageView
@@ -54,7 +54,7 @@
                         android:layout_width="140dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
-                        android:background="@drawable/shape2"
+                        android:background="@drawable/shape4"
                         android:gravity="center"
                         android:padding="4dp"
                         android:text="Contact"
@@ -92,7 +92,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="20dp"
-                    android:background="@drawable/shape2"
+                    android:background="@drawable/shape4"
                     android:gravity="center"
                     android:padding="4dp"
                     android:text="Languages"
@@ -121,7 +121,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
                         android:layout_marginTop="40dp"
-                        android:background="@drawable/shape2"
+                        android:background="@drawable/shape4"
                         android:gravity="center"
                         android:padding="4dp"
                         android:text="Skills"
@@ -163,13 +163,13 @@
         <LinearLayout
             android:layout_width="240dp"
             android:layout_height="match_parent"
-            android:background="@color/wwhite"
+
             android:orientation="vertical">
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="120dp"
-                android:layout_marginLeft="115dp"
+                android:layout_marginLeft="100dp"
                 android:src="@drawable/image5" />
 
             <TextView
@@ -177,7 +177,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="100dp"
-                android:background="@drawable/shape2"
+                android:background="@drawable/shape4"
                 android:gravity="center"
                 android:padding="4dp"
                 android:text="Education"
@@ -204,7 +204,7 @@
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="40dp"
-                android:background="@drawable/shape2"
+                android:background="@drawable/shape4"
                 android:gravity="center"
                 android:padding="4dp"
                 android:text="Experience"
@@ -231,7 +231,7 @@
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="40dp"
-                android:background="@drawable/shape2"
+                android:background="@drawable/shape4"
                 android:gravity="center"
                 android:padding="4dp"
                 android:text="Hobby"
@@ -255,8 +255,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="122dp"
-                android:layout_marginTop="3dp"
-                android:layout_marginLeft="130dp"
+                android:layout_marginLeft="100dp"
                 android:src="@drawable/image6" />
 
         </LinearLayout>

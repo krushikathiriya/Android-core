@@ -17,14 +17,14 @@
             android:layout_width="205dp"
             android:layout_height="365dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/first"/>
+            android:src="@drawable/img_6"/>
 
         <ImageView
             android:id="@+id/img2"
             android:layout_width="205dp"
             android:layout_height="365dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/second"/>
+            android:src="@drawable/img_7"/>
 
 
     </LinearLayout>
@@ -38,14 +38,14 @@
             android:layout_width="205dp"
             android:layout_height="365dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/third"/>
+            android:src="@drawable/img_8"/>
 
         <ImageView
             android:id="@+id/img4"
             android:layout_width="205dp"
             android:layout_height="365dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/four"/>
+            android:src="@drawable/img_9"/>
 
     </LinearLayout>
 </LinearLayout>
