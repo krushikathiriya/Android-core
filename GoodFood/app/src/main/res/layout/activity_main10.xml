@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/grey"
+    android:background="#eaeaea"
     android:orientation="vertical"
     tools:context=".MainActivity10">
 
@@ -79,9 +79,9 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="22dp"
-                android:layout_height="22dp"
-                android:layout_marginLeft="7dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="6dp"
                 android:layout_marginTop="5dp"
                 android:src="@drawable/minusssssss" />
 
@@ -92,12 +92,12 @@
                 android:layout_marginTop="4dp"
                 android:text="1"
                 android:textColor="@color/black"
-                android:textSize="20sp"
+                android:textSize="17sp"
                 android:textStyle="bold" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="20dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
                 android:layout_marginLeft="6dp"
                 android:layout_marginTop="7dp"
                 android:src="@drawable/plus" />
@@ -153,8 +153,8 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="22dp"
-                android:layout_height="22dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
                 android:layout_marginLeft="7dp"
                 android:layout_marginTop="5dp"
                 android:src="@drawable/minusssssss" />
@@ -162,16 +162,16 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="7dp"
+                android:layout_marginLeft="6dp"
                 android:layout_marginTop="4dp"
                 android:text="1"
                 android:textColor="@color/black"
-                android:textSize="20sp"
+                android:textSize="17sp"
                 android:textStyle="bold" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="20dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
                 android:layout_marginLeft="6dp"
                 android:layout_marginTop="7dp"
                 android:src="@drawable/plus" />
@@ -227,8 +227,8 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="22dp"
-                android:layout_height="22dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
                 android:layout_marginLeft="7dp"
                 android:layout_marginTop="5dp"
                 android:src="@drawable/minusssssss" />
@@ -236,16 +236,16 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="7dp"
+                android:layout_marginLeft="6dp"
                 android:layout_marginTop="4dp"
                 android:text="1"
                 android:textColor="@color/black"
-                android:textSize="20sp"
+                android:textSize="16sp"
                 android:textStyle="bold" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="20dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
                 android:layout_marginLeft="6dp"
                 android:layout_marginTop="7dp"
                 android:src="@drawable/plus" />
@@ -259,8 +259,8 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="20dp"
-            android:layout_height="20dp"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
             android:layout_marginLeft="260dp"
             android:src="@drawable/plus" />
 
@@ -368,7 +368,7 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="130dp"
                     android:text="Estimated Total Cost is an approximation"
-                    android:textStyle="bold" />
+                    />
             </LinearLayout>
 
             <LinearLayout
@@ -383,7 +383,7 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="95dp"
                     android:text="and may vary slightly based on lactors."
-                    android:textStyle="bold" />
+                     />
             </LinearLayout>
 
             <ImageView
@@ -429,7 +429,7 @@
                 android:id="@+id/btn9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="30dp"
+                android:layout_marginHorizontal="20dp"
                 android:layout_marginTop="250dp"
                 android:background="@drawable/shape"
                 android:text="Confirm Order"

@@ -13,10 +13,10 @@
         android:layout_height="wrap_content">
 
         <ImageView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:src="@drawable/img_1" />
 
         <LinearLayout
@@ -76,7 +76,7 @@
 
         <LinearLayout
             android:layout_width="290dp"
-            android:layout_height="50dp"
+            android:layout_height="40dp"
             android:layout_marginHorizontal="10dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/shape3"
@@ -85,19 +85,20 @@
             <ImageView
                 android:layout_width="20dp"
                 android:layout_height="20dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
                 android:src="@drawable/search" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="10dp"
                 android:background="@null"
                 android:hint="Search" />
 
         </LinearLayout>
+
 
         <LinearLayout
             android:layout_width="50dp"
@@ -105,8 +106,9 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="40dp"
-                android:layout_height="wrap_content"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
                 android:src="@drawable/imagee" />
         </LinearLayout>
     </LinearLayout>
@@ -269,8 +271,8 @@
             android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="20dp"
-            android:layout_height="20dp"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
             android:layout_marginTop="150dp"
             android:layout_marginLeft="8dp"
             android:src="@drawable/clockk" />
@@ -278,9 +280,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="150dp"
+            android:layout_marginTop="149dp"
             android:text="8:30 pm - 10:30pm (2.5 km)"
             android:textColor="#6C6A6A"
+            android:layout_marginLeft="10dp"
             android:textStyle="bold" />
 
 
@@ -391,8 +394,8 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="20dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
                 android:layout_marginTop="150dp"
                 android:layout_marginLeft="8dp"
                 android:src="@drawable/clockk" />
@@ -400,9 +403,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="150dp"
+                android:layout_marginTop="149dp"
                 android:text="8:30 pm - 10:30pm (3.5 km)"
                 android:textColor="#6C6A6A"
+                android:layout_marginLeft="10dp"
                 android:textStyle="bold" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -410,7 +414,6 @@
     <LinearLayout
         android:layout_width="410dp"
         android:layout_height="90dp"
-        android:layout_marginTop="80dp"
         android:background="@drawable/shape13"
         android:orientation="horizontal">
 

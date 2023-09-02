@@ -12,9 +12,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        init();
+        initview();
     }
-    private void init()
+    private void initview()
     {
         new Handler().postDelayed(new Runnable() {
             @Override
