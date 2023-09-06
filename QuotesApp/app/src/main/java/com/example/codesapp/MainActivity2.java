@@ -23,7 +23,7 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     private void initview() {
-        String title;
+        String title = null;
 
         txt = findViewById(R.id.txt);
         rcv = findViewById(R.id.rcv);
@@ -34,6 +34,7 @@ public class MainActivity2 extends AppCompatActivity {
             txt.setText(title);
 
             if (title.equals("Happy"))
+
             {
                 ModelclassQuotes m1 = new ModelclassQuotes();
                 m1.setQuotes("Success is getting what you want,Happiness is wanting what you get");
@@ -71,7 +72,67 @@ public class MainActivity2 extends AppCompatActivity {
                 m9.setQuotes("Happiness is letting go of what you think your life is supposed to look like.");
                 QuotesName.add(m9);
 
-            } else if (title.equals("Sad"))
+                ModelclassQuotes  m10 = new ModelclassQuotes();
+                m10.setQuotes("Not how long, but how well you have lived is the main thing.");
+                QuotesName.add(m10);
+
+
+                ModelclassQuotes  m11 = new ModelclassQuotes();
+                m11.setQuotes("If life were predictable it would cease to be life, and be without flavor.");
+                QuotesName.add(m11);
+
+
+                ModelclassQuotes  m12 = new ModelclassQuotes();
+                m12.setQuotes("The whole secret of a successful life is to find out what is one’s destiny to do, and then do it.");
+                QuotesName.add(m12);
+
+
+                ModelclassQuotes  m13 = new ModelclassQuotes();
+                m13.setQuotes("In order to write about life first you must live it.");
+                QuotesName.add(m13);
+
+
+                ModelclassQuotes  m14 = new ModelclassQuotes();
+                m14.setQuotes("The big lesson in life, baby, is never be scared of anyone or anything.");
+                QuotesName.add(m14);
+
+
+                ModelclassQuotes  m15 = new ModelclassQuotes();
+                m15.setQuotes("Curiosity about life in all of its aspects, I think, is still the secret of great creative people.");
+                QuotesName.add(m15);
+
+                ModelclassQuotes  m16 = new ModelclassQuotes();
+                m16.setQuotes("You only live once, but if you do it right, once is enough.");
+                QuotesName.add(m16);
+
+                ModelclassQuotes  m17 = new ModelclassQuotes();
+                m17.setQuotes("Many of life’s failures are people who did not realize how close they were to success when they gave up.");
+                QuotesName.add(m17);
+
+                ModelclassQuotes  m18 = new ModelclassQuotes();
+                m18.setQuotes("Never let the fear of striking out keep you from playing the game.");
+                QuotesName.add(m18);
+
+                ModelclassQuotes  m19 = new ModelclassQuotes();
+                m19.setQuotes("Money and success don’t change people; they merely amplify what is already there");
+                QuotesName.add(m19);
+
+                ModelclassQuotes  m20 = new ModelclassQuotes();
+                m20.setQuotes("The purpose of our lives is to be happy.");
+                QuotesName.add(m20);
+
+                ModelclassQuotes  m21 = new ModelclassQuotes();
+                m21.setQuotes("Get busy living or get busy dying..");
+                QuotesName.add(m21);
+
+                ModelclassQuotes  m22 = new ModelclassQuotes();
+                m22.setQuotes("You only live once, but if you do it right, once is enough.");
+                QuotesName.add(m22);
+
+
+
+        } else if (title.equals("Sad"))
+
             {
                 ModelclassQuotes m1 = new ModelclassQuotes();
                 m1.setQuotes("It’s amazing how someone can break your heart and you can still love them with all the little pieces.");
@@ -113,6 +174,59 @@ public class MainActivity2 extends AppCompatActivity {
                 m10.setQuotes("Don’t cry because it’s over, smile because it happened.");
                 QuotesName.add(m10);
 
+                ModelclassQuotes  m11 = new ModelclassQuotes();
+                m11.setQuotes("Sadness flies away on the wings of time.");
+                QuotesName.add(m11);
+
+
+                ModelclassQuotes  m12 = new ModelclassQuotes();
+                m12.setQuotes("Don't cry over someone who wouldn't cry over you.");
+                QuotesName.add(m12);
+
+
+                ModelclassQuotes  m13 = new ModelclassQuotes();
+                m13.setQuotes("ny fool can be happy. It takes a man with real heart to make beauty out of the stuff that makes us weep.");
+                QuotesName.add(m13);
+
+
+                ModelclassQuotes  m14 = new ModelclassQuotes();
+                m14.setQuotes("The word ‘happy’ would lose its meaning if it were not balanced by sadness");
+                QuotesName.add(m14);
+
+
+                ModelclassQuotes  m15 = new ModelclassQuotes();
+                m15.setQuotes("Tears are words that need to be written");
+                QuotesName.add(m15);
+
+                ModelclassQuotes  m16 = new ModelclassQuotes();
+                m16.setQuotes("Sadness is but a wall between two gardens.");
+                QuotesName.add(m16);
+
+                ModelclassQuotes  m17 = new ModelclassQuotes();
+                m17.setQuotes("It is sad not to love, but it is much sadder not to be able to love.");
+                QuotesName.add(m17);
+
+                ModelclassQuotes  m18 = new ModelclassQuotes();
+                m18.setQuotes("There are two types of people in the world: Those who prefer to be sad among others, and those who prefer to be sad alone");
+                QuotesName.add(m18);
+
+                ModelclassQuotes  m19 = new ModelclassQuotes();
+                m19.setQuotes("Sad hurts but it's a healthy feeling. It is a necessary thing to feel");
+                QuotesName.add(m19);
+
+                ModelclassQuotes  m20 = new ModelclassQuotes();
+                m20.setQuotes("One thing you can't hide is when you're crippled inside");
+                QuotesName.add(m20);
+
+                ModelclassQuotes  m21 = new ModelclassQuotes();
+                m21.setQuotes("Every life has a measure of sorrow, and sometimes this is what awakens us.");
+                QuotesName.add(m21);
+
+                ModelclassQuotes  m22 = new ModelclassQuotes();
+                m22.setQuotes("Sadness is also a kind of defense");
+                QuotesName.add(m22);
+
+
             } else if (title.equals("Engry")) {
                 ModelclassQuotes m1 = new ModelclassQuotes();
                 m1.setQuotes("A man that studieth revenge keeps his own wounds green.");
@@ -149,6 +263,63 @@ public class MainActivity2 extends AppCompatActivity {
                 ModelclassQuotes m9 = new ModelclassQuotes();
                 m9.setQuotes(" A man in a passion rides a horse that runs away with him.");
                 QuotesName.add(m9);
+
+                ModelclassQuotes  m10 = new ModelclassQuotes();
+                m10.setQuotes("My existence is for myself; I do not exist to impress others,.");
+                QuotesName.add(m10);
+
+
+                ModelclassQuotes  m11 = new ModelclassQuotes();
+                m11.setQuotes("The best way to get someone’s attention is to stop giving them your attention");
+                QuotesName.add(m11);
+
+
+                ModelclassQuotes  m12 = new ModelclassQuotes();
+                m12.setQuotes("Life is short, don’t waste it on me.");
+                QuotesName.add(m12);
+
+
+                ModelclassQuotes  m13 = new ModelclassQuotes();
+                m13.setQuotes("You lose your importance in their life when you give lots of importance to them.");
+                QuotesName.add(m13);
+
+
+                ModelclassQuotes  m14 = new ModelclassQuotes();
+                m14.setQuotes("My attitude replies to you if your ego speaks with me");
+                QuotesName.add(m14);
+
+
+                ModelclassQuotes  m15 = new ModelclassQuotes();
+                m15.setQuotes("Quit talking to me if you don’t like my attitude.");
+                QuotesName.add(m15);
+
+                ModelclassQuotes  m16 = new ModelclassQuotes();
+                m16.setQuotes("My life, my attitude");
+                QuotesName.add(m16);
+
+                ModelclassQuotes  m17 = new ModelclassQuotes();
+                m17.setQuotes("Maybe I am not perfect, but I am always me");
+                QuotesName.add(m17);
+
+                ModelclassQuotes  m18 = new ModelclassQuotes();
+                m18.setQuotes("Make sure that you are perfect if you are going to judge me");
+                QuotesName.add(m18);
+
+                ModelclassQuotes  m19 = new ModelclassQuotes();
+                m19.setQuotes("I’m not a WhatsApp status; I don’t mind if you don’t like me.");
+                QuotesName.add(m19);
+
+                ModelclassQuotes  m20 = new ModelclassQuotes();
+                m20.setQuotes("A man who has not passed through the inferno of his passions has never overcome them");
+                QuotesName.add(m20);
+
+                ModelclassQuotes  m21 = new ModelclassQuotes();
+                m21.setQuotes("When anger rises, think of the consequences.");
+                QuotesName.add(m21);
+
+                ModelclassQuotes  m22 = new ModelclassQuotes();
+                m22.setQuotes("For every minute you remain angry, you give up sixty seconds of peace of mind.");
+                QuotesName.add(m22);
             }
 
             else if (title.equals("Confused")) {
@@ -187,6 +358,56 @@ public class MainActivity2 extends AppCompatActivity {
                 ModelclassQuotes m9 = new ModelclassQuotes();
                 m9.setQuotes("If you can’t convince them, confuse them.");
                 QuotesName.add(m9);
+
+                ModelclassQuotes  m10 = new ModelclassQuotes();
+                m10.setQuotes("close, but no cigar..");
+                QuotesName.add(m10);
+
+
+                ModelclassQuotes  m11 = new ModelclassQuotes();
+                m11.setQuotes("turn over a new leaf.");
+                QuotesName.add(m11);
+
+
+                ModelclassQuotes  m12 = new ModelclassQuotes();
+                m12.setQuotes("Affect vs. Effect. Affect is a verb meaning to influence");
+                QuotesName.add(m12);
+
+
+                ModelclassQuotes  m13 = new ModelclassQuotes();
+                m13.setQuotes("The most confused we ever get is when we're trying to convince our heads of something our heart knows is a lie");
+                QuotesName.add(m13);
+
+
+                ModelclassQuotes  m14 = new ModelclassQuotes();
+                m14.setQuotes("Good. Be confused. Confusion is where inspiration comes from.");
+                QuotesName.add(m14);
+
+
+                ModelclassQuotes  m15 = new ModelclassQuotes();
+                m15.setQuotes("People don't expect too much from literature. They just want to know they're not alone with being confused.");
+                QuotesName.add(m15);
+
+                ModelclassQuotes  m16 = new ModelclassQuotes();
+                m16.setQuotes("Logic of a madman is a sane man’s confusion");
+                QuotesName.add(m16);
+
+                ModelclassQuotes  m17 = new ModelclassQuotes();
+                m17.setQuotes("With great power often comes great confusion");
+                QuotesName.add(m17);
+
+                ModelclassQuotes  m18 = new ModelclassQuotes();
+                m18.setQuotes("Confusion is a sign of intelligence; only fools are crystal clear.");
+                QuotesName.add(m18);
+
+                ModelclassQuotes  m19 = new ModelclassQuotes();
+                m19.setQuotes("Sensuality is allowing your brilliance and confusion to coexist");
+                QuotesName.add(m19);
+
+                ModelclassQuotes  m20 = new ModelclassQuotes();
+                m20.setQuotes("We often confuse what we wish for with what is");
+                QuotesName.add(m20);
+
             }
 
             else if (title.equals("Love")) {
@@ -225,6 +446,58 @@ public class MainActivity2 extends AppCompatActivity {
                 ModelclassQuotes m9 = new ModelclassQuotes();
                 m9.setQuotes("I have decided to stick to love; hate is too great a burden to bear.");
                 QuotesName.add(m9);
+
+                ModelclassQuotes  m10 = new ModelclassQuotes();
+                m10.setQuotes("As he read, I fell in love the way you fall asleep: slowly, and then all at once.");
+                QuotesName.add(m10);
+
+                ModelclassQuotes  m11 = new ModelclassQuotes();
+                m11.setQuotes("Loved you yesterday, love you still, always have, always will.");
+                QuotesName.add(m11);
+
+                ModelclassQuotes  m12 = new ModelclassQuotes();
+                m12.setQuotes("I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more.");
+                QuotesName.add(m12);
+
+                ModelclassQuotes  m13 = new ModelclassQuotes();
+                m13.setQuotes("I love you not only for what you are, but for what I am when I am with you. I love you not only for what you have made of yourself, but for what you are making of me. I love you for the part of me that you bring out.");
+                QuotesName.add(m13);
+
+
+                ModelclassQuotes  m14 = new ModelclassQuotes();
+                m14.setQuotes("The real lover is a man who can thrill you by kissing your forehead or smiling into your eyes or just staring into space.");
+                QuotesName.add(m14);
+
+
+                ModelclassQuotes  m15 = new ModelclassQuotes();
+                m15.setQuotes("In all the world, there is no heart for me like yours. In all the world, there is no love for you like mine.");
+                QuotesName.add(m15);
+
+
+                ModelclassQuotes  m16 = new ModelclassQuotes();
+                m16.setQuotes("I’ll be loving you, always with a love that’s true");
+                QuotesName.add(m16);
+
+
+                ModelclassQuotes  m17 = new ModelclassQuotes();
+                m17.setQuotes("Thinking of you keeps me awake. Dreaming of you keeps me asleep. Being with you keeps me alive.");
+                QuotesName.add(m17);
+
+
+                ModelclassQuotes  m18 = new ModelclassQuotes();
+                m18.setQuotes("I need you like a heart needs a beat.");
+                QuotesName.add(m18);
+
+
+                ModelclassQuotes  m19 = new ModelclassQuotes();
+                m19.setQuotes("If I know what love is, it is because of you.");
+                QuotesName.add(m19);
+
+
+                ModelclassQuotes  m20 = new ModelclassQuotes();
+                m20.setQuotes("I swear I couldn’t love you more than I do right now, and yet I know I will tomorrow.");
+                QuotesName.add(m20);
+
             }
 
             else if (title.equals("Brother")) {
@@ -263,6 +536,58 @@ public class MainActivity2 extends AppCompatActivity {
                 ModelclassQuotes m9 = new ModelclassQuotes();
                 m9.setQuotes("Nothing can stop me from loving my brother.");
                 QuotesName.add(m9);
+
+
+                ModelclassQuotes  m10 = new ModelclassQuotes();
+                m10.setQuotes("Future's like an older brother to me, and Thug's more like a brother my age.");
+                QuotesName.add(m10);
+
+                ModelclassQuotes  m11 = new ModelclassQuotes();
+                m11.setQuotes("There is no success you can celebrate more than the success of a brother..");
+                QuotesName.add(m11);
+
+                ModelclassQuotes  m12 = new ModelclassQuotes();
+                m12.setQuotes("I had a brother who was my savior, made my childhood bearable.");
+                QuotesName.add(m12);
+
+                ModelclassQuotes  m13 = new ModelclassQuotes();
+                m13.setQuotes("My brother was a lifeguard in a car wash.");
+                QuotesName.add(m13);
+
+
+                ModelclassQuotes  m14 = new ModelclassQuotes();
+                m14.setQuotes("My brother was my first guru who introduced me to spiritualism at a very young age. He later even enrolled me into Ramakrishna Mission.");
+                QuotesName.add(m14);
+
+
+                ModelclassQuotes  m15 = new ModelclassQuotes();
+                m15.setQuotes("The men who learn endurance, are they who call the whole world, brother.");
+                QuotesName.add(m15);
+
+
+                ModelclassQuotes  m16 = new ModelclassQuotes();
+                m16.setQuotes("Your brother is always the first male friend you will have in your life .Ritu Ghatourey");
+                QuotesName.add(m16);
+
+
+                ModelclassQuotes  m17 = new ModelclassQuotes();
+                m17.setQuotes("Who needs superheroes when you have a brother.");
+                QuotesName.add(m17);
+
+
+                ModelclassQuotes  m18 = new ModelclassQuotes();
+                m18.setQuotes("When brothers agree no fortress is so strong as their common life.");
+                QuotesName.add(m18);
+
+
+                ModelclassQuotes  m19 = new ModelclassQuotes();
+                m19.setQuotes("Brothers are playmates in the beginning and best friends for life.");
+                QuotesName.add(m19);
+
+
+                ModelclassQuotes  m20 = new ModelclassQuotes();
+                m20.setQuotes("My little brother played drums so we had a drum set over at my house Synyster Gates");
+                QuotesName.add(m20);
             }
 
             else if (title.equals("Teacher")) {
@@ -305,6 +630,29 @@ public class MainActivity2 extends AppCompatActivity {
                 ModelclassQuotes m10 = new ModelclassQuotes();
                 m10.setQuotes("You are the best teacher a student could ask for");
                 QuotesName.add(m10);
+
+                ModelclassQuotes m11 = new ModelclassQuotes();
+                m11.setQuotes("One book, one pen, one child and one teacher can change the world.");
+                QuotesName.add(m11);
+
+                ModelclassQuotes  m12 = new ModelclassQuotes();
+                m12.setQuotes("A teacher affects eternity; he can never tell where his influence stops.");
+                QuotesName.add(m12);
+
+
+                ModelclassQuotes  m13 = new ModelclassQuotes();
+                m13.setQuotes("The beautiful thing about learning is that no one can take it away from you.");
+                QuotesName.add(m13);
+
+
+                ModelclassQuotes  m14 = new ModelclassQuotes();
+                m14.setQuotes("How wonderful it is that nobody need wait a single moment before starting to improve the world.");
+                QuotesName.add(m14);
+
+
+                ModelclassQuotes  m15 = new ModelclassQuotes();
+                m15.setQuotes("May your passion for teaching continue to shine.");
+                QuotesName.add(m15);
             }
 
             else if (title.equals("Friendship")) {
@@ -347,6 +695,25 @@ public class MainActivity2 extends AppCompatActivity {
                 ModelclassQuotes m10 = new ModelclassQuotes();
                 m10.setQuotes("A faithful friend loves to the end");
                 QuotesName.add(m10);
+
+                ModelclassQuotes  m11 = new ModelclassQuotes();
+                m11.setQuotes("Let us be grateful to the people who make us happy; they are the charming gardeners who make our souls blossom.");
+                QuotesName.add(m11);
+
+
+                ModelclassQuotes  m12 = new ModelclassQuotes();
+                m12.setQuotes("Lots of people want to ride with you in the limo, but what you want is someone who will take the bus with you when the limo breaks down.");
+                QuotesName.add(m12);
+
+
+                ModelclassQuotes  m13 = new ModelclassQuotes();
+                m13.setQuotes("In the sweetness of friendship let there be laughter, for in the dew of little things the heart finds its morning and is refreshed.");
+                QuotesName.add(m13);
+
+
+                ModelclassQuotes  m14 = new ModelclassQuotes();
+                m14.setQuotes("It’s not what we have in life, but who we have in our life that matters.");
+                QuotesName.add(m14);
             }
 
             else if (title.equals("Education")) {
