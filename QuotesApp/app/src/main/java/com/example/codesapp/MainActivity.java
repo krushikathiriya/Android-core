@@ -85,7 +85,48 @@ public class MainActivity extends AppCompatActivity {
         m12.setQuotesImg(R.drawable.nature);
         QuotesName.add(m12);
 
-      QuotesInterface quotesInterface = new QuotesInterface() {
+
+        Modelclass m13 = new Modelclass();
+        m13.setQuotesName("Attitude");
+        m13.setQuotesImg(R.drawable.attitude);
+        QuotesName.add(m13);
+
+        Modelclass m14 = new Modelclass();
+        m14.setQuotesName("Alone");
+        m14.setQuotesImg(R.drawable.alone);
+        QuotesName.add(m14);
+
+        Modelclass m15 = new Modelclass();
+        m15.setQuotesName("Confidence");
+        m15.setQuotesImg(R.drawable.confidence);
+        QuotesName.add(m15);
+
+        Modelclass m16 = new Modelclass();
+        m16.setQuotesName("Inspiration");
+        m16.setQuotesImg(R.drawable.inspiration);
+        QuotesName.add(m16);
+
+        Modelclass m17 = new Modelclass();
+        m17.setQuotesName("Life");
+        m17.setQuotesImg(R.drawable.life);
+        QuotesName.add(m17);
+
+        Modelclass m18 = new Modelclass();
+        m18.setQuotesName("Beautiful");
+        m18.setQuotesImg(R.drawable.beautiful);
+        QuotesName.add(m18);
+
+        Modelclass m19 = new Modelclass();
+        m19.setQuotesName("Dream");
+        m19.setQuotesImg(R.drawable.dream);
+        QuotesName.add(m19);
+
+        Modelclass m20 = new Modelclass();
+        m20.setQuotesName("Motivation");
+        m20.setQuotesImg(R.drawable.motivation);
+        QuotesName.add(m20);
+
+        QuotesInterface quotesInterface = new QuotesInterface() {
           @Override
           public void Quotes(String Quotes) {
 
