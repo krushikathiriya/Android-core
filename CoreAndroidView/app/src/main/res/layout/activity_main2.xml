@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Your Course"
+        android:textSize="25sp"
+        android:layout_marginHorizontal="90dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/radiogroup">
+
+    <RadioButton
+        android:id="@+id/radiobutton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="135dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+
+    <RadioButton
+        android:id="@+id/radiobutton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Python"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="135dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+
+    <RadioButton
+        android:id="@+id/radiobutton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="135dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+
+    <RadioButton
+        android:id="@+id/radiobutton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Webdesign"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="130dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+
+
+</RadioGroup>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="GET COURSE"
+        android:layout_marginHorizontal="110dp"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/nextclick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="100dp"/>
+
+
+
+</LinearLayout>
