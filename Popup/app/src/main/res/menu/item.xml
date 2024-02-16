@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="ExtraText">
+
+    <item
+        android:title="New group"
+        android:id="@+id/newgroup"/>
+    <item
+        android:title="New broadcast"
+        android:id="@+id/broad"/>
+    <item
+        android:title="Linked devices"
+        android:id="@+id/linked"/>
+    <item
+        android:title="Starred messages"
+        android:id="@+id/starred"/>
+    <item
+        android:title="Payments"
+        android:id="@+id/payment"/>
+    <item
+        android:title="Settings"
+        android:id="@+id/settings"/>
+
+</menu>

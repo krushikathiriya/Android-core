@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentsActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/green">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/arrow" />
+
+        <TextView
+            android:id="@+id/txtgroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="25dp"
+            android:text="Payments"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_1"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="110dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="220dp"
+        android:text="Finish setting up payments on WhatsApp to App to send and" />
+
+    <TextView
+        android:id="@+id/txtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="receive money securely."
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="130dp"/>
+
+<RelativeLayout
+    android:layout_below="@+id/txtview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape1">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Finish set up "
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/green"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+</RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="330dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/line" />
+<ImageView
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:src="@drawable/img_2"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="340dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send payment"
+        android:layout_marginTop="345dp"
+        android:layout_marginLeft="95dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+<ImageView
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:src="@drawable/qrcode"
+    android:layout_marginTop="400dp"
+    android:layout_marginLeft="20dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan payment QR code"
+        android:layout_marginTop="405dp"
+        android:layout_marginLeft="95dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="450dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/line" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="History"
+        android:layout_marginTop="455dp"
+        android:textColor="@color/green"
+        android:textSize="17sp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/img_4"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="440dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No payments history"
+        android:layout_marginTop="570dp"
+        android:layout_marginLeft="140dp"
+        android:textStyle="bold"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="595dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/line" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment methods"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        android:layout_marginTop="610dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="16sp"/>
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/add"
+        android:layout_marginTop="640dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add payment method"
+        android:layout_marginLeft="60dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="640dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="672dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/line" />
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/question"
+        android:layout_marginTop="690dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help"
+        android:layout_marginLeft="60dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="690dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="725dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/line" />
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/img_5"
+        android:layout_marginTop="730dp"
+        android:layout_marginLeft="170dp"/>
+
+</RelativeLayout>
